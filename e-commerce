@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Lojas Angola-a melhor da região</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet'  href="XD.css"> 
+</head>
+<body>
+    <!--início menu-->
+    <div id="menu">
+        <ul>
+            <h1>Lojas Angola</h1>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Perfil</a></li>
+            <li><a href="#">Carrinho</a></li>
+            <li><a href="#">Configurações</a></li>
+        </ul>
+    </div>
+    <!--final menu-->
+    <!--início produtos-->
+        <h2>Produtos-Informática</h2>
+    <div id="produtos">
+    <div id=process>
+           <img src="pc.png" width="270px">
+    <div id="cap">
+            <figcaption>Processador I7</figcaption>
+        </div>
+        </div> 
+    <div id=monitor>
+            <img src="monitor2.png" width="220px">
+       <div id="tion">
+            <figcaption> Monitor Apple</figcaption>
+        </div>
+    </div>
+    <div id="video">
+        <img src="place.png" width="310px">
+        <div id="vi">
+        <figcaption>Placa de vídeo AMD</figcaption>
+    </div>
+    </div>
+    </div>
+    <!--final produtos-->
+</div>
+   
+    
+    </div>
+</body>
+</html>
