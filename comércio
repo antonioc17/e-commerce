@@ -1,0 +1,122 @@
+body{
+    background-color: rgb(255, 255, 255);
+    padding:0px;
+}
+
+h1{
+    font-size: 45px;
+    font-family: monospace;
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu ul{
+    margin-left: -10px;
+    margin-right: -25px;
+    margin-top: -30px;
+    padding:0px;
+    background-color: rgb(0, 0, 0);
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    padding: 30px 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+#menu ul li a:hover{
+    color: rgb(128, 0, 0);
+}
+
+#produtos{
+    display: flex;
+    flex-direction:row ;
+}
+
+#process{
+    margin-top:50px;
+    margin-left: 15px;
+    background-color: white ;
+    width: 280px;
+    border: 3px solid  rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: 1s;
+}
+
+#process:hover{
+    transform: scale(1.2);
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#cap{
+    margin-left: 50px;
+    color: rgb(10, 10, 10);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: 1s;
+}
+
+#monitor{
+    margin-bottom: 50px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 150%;
+}
+
+#monitor:hover{
+    transform: scale(1.2);
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#tion{
+    margin-top: 30px;
+    color: rgb(10, 10, 10);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: 1s;
+}
+
+#video{
+    margin-bottom: 100px;
+    margin-left:110px;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+#video:hover{
+    transform: scale(1.1);
+    margin-left: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#vi{
+    margin-left: 40px;
+    margin-top: 30px;
+    color: rgb(10, 10, 10);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    transition: 1s;
+}
